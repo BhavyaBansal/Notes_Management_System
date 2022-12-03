@@ -1,0 +1,49 @@
+body{
+	/* height: auto; */
+	background-image: url('images/img10.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	transition: 1s all;
+}
+		.heading-style{
+			background-color: white; padding: 7px 0px; border-radius: 10px; text-align:center;
+		}
+		.margin-bottom{
+			margin-bottom: 50px;
+		}
+		.text-style{font-family: 'Archivo Black', sans-serif; font-family: 'Cinzel', serif;}
+		#blur {
+			box-shadow: 12px 12px 10px  rgb(0,0,0);
+			
+			border-radius: 20px;
+			background-color: rgba(0,0,0,0.5);
+			background-color: blur;
+			}
+		.row{
+		    margin-top:40px;
+		    padding: 0 10px;
+		}
+		.clickable{
+		    cursor: pointer;   
+		}
+
+		.panel-heading div {
+			margin-top: -18px;
+			font-size: 15px;
+		}
+		.panel-heading div span{
+			margin-left:5px;
+		}
+		.panel-body{
+			display: show;
+		}
+		.my-custom-scrollbar {
+			position: relative;
+			height: 385px;
+			overflow: auto;
+			}
+			
+	

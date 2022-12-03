@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,500&display=swap" rel="stylesheet"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Potta+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <style type="text/css">
+     li:hover{
+      border-bottom:1px solid white;
+      background-color: #080808;
+      transition: 1s;
+    }
+    li{
+      margin-right: 3px;
+    }
+    .dropdown-menu li a:hover{
+      color: white;
+      background-color: #080808;
+      transition: 0.5s;
+    }
+    img:hover{
+      padding: 3px;
+      background-color: #080808;
+      border-radius:50%;
+      transition: 0.5s;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid" style="padding: 10px 10px;font-family: 'Fraunces', serif;">
+
+
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div class="navbar-brand" style="padding: 1px;margin:0 5px;">
+      <a href="index.php"><img src="images/logo.PNG" width="50px"></a>
+      </div>
+      <a class="navbar-brand" href="index.php" style="font-size: 26px;font-weight: bolder;color: white;">Notes Management System</a>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="myNavbar" style="font-size: 16px;">
+      <ul class="nav navbar-nav">
+        <li><a href="index.php" style="color: white;"><i style="font-size:16px;margin-right: 1px;" class="fa">&#xf015;</i>Home</a></li>
+        <li><a href="aboutus.html" style="color: white;"><i style="font-size:16px;margin-right: 1px;" class="fa">&#xf0c0;</i>About Us</a></li>
+        <li><a href="sgpa_calculator.html" style="color: white;"><i style='font-size:16px;margin-right: 1px;' class='fas'>&#xf1ec;</i>Calculator</a></li>
+        <li><a href="upload.php" style="color: white;"><i style='font-size:16px;margin-right: 1px;' class='fas'>&#xf382;</i>Upload</a></li>
+        <li><a href="sidebar.php" style="color: white;"><i style='font-size:16px;margin-right: 1px;' class='fas'>&#xf381;</i>Download</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;"><i style='font-size:16px;margin-right: 1px;' class='fas'>&#xf19d;</i>Faculties<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Technical</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Commerce</a></li>
+            <li><a href="#">Social Science</a></li>
+            <li><a href="#">Arts</a></li>
+            <li><a href="#">Ayush</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html" style="color: white;"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="logout.php" style="color: white;"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</body>
+</html>

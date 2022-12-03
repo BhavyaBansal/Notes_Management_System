@@ -1,0 +1,147 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/* height: auto; */
+	background-image: url('images/img1.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	transition: 1s all;
+}
+.text-style{ font-family: 'Source Serif Pro', serif; }
+.heading{ 
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Cinzel', serif;
+}
+.bt1{
+	position: static !important;
+}
+.div-size{
+	min-height: 100%;
+}
+html,body{
+	height: 100%;
+}
+
+.dot {  background-color: #bbb; border-radius: 50%; display: inline-block; }
+	#id1 {font-family: 'Archivo Black', sans-serif; font-family: 'Cinzel', serif;}
+	.margin-top{margin-top: 260px;}
+
+.yo{
+	height: auto;
+}
+.container img{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+}
+#form-1{
+	margin-top: 60%;
+
+	box-shadow: 12px 12px 10px  rgb(0,0,0);
+	transition: 0.2s;
+	background-color:rgba(0,0,0,0.5);
+	padding: 25px 25px 5px 25px;
+}
+#form-2{
+	margin-top: 10%;
+	margin-bottom: 20vh;
+	height: auto;
+
+	box-shadow: 12px 12px 10px  rgb(0,0,0);
+
+	padding: 30px 30px 0px 30px;
+	background-color: rgba(0,0,0,0.5);
+
+}
+#form-2 button{
+	position: relative;
+}
+#error,#error1{
+	color: red;
+}
+label{color: white;
+padding-bottom: 10px;
+
+}
+
+b{
+	color:red;
+	font-family: "cursive";
+	font-size: 15pt;
+	font-style: italic;
+}
+strong{
+      font-family: "cursive";
+	font-size: 15pt;
+	font-style: italic;
+}
+input{
+	box-shadow: 4px 4px 3px rgba(0,0,0);
+	border:2px solid green ;
+}
+.effect-1{
+	border:1px solid #ccc;
+	padding: 7px 14px 9px;
+	transition: 0.4s;
+	background:transparent;
+}
+
+.effect-1 ~ .focus-bg:before,
+.effect-1 ~ .focus-bg:after{content: "";position: absolute;
+left: 50%;top: 50%;width: 0;
+height: 0;background-color: #ededed;transition: 0.3s;z-index: -1;}
+.effect-1:focus ~.focus-bg:before{transition: 0.3s;width: 50%;left: 0;
+top: 0;height: 100%;}
+.effect-1 ~ .focus-bg:after{left: auto;right: 50%;
+top: auto;bottom: 50%;}
+.effect-1:focus ~ .focus-bg:after{transition: 0.3s;
+width: 50%;height: 100%;bottom: 0;right: 0;}
+
+.choice{
+	border:1px solid #ccc;
+	padding: 7px 14px 9px;
+	transition: 0.4s;
+	background:transparent;
+}
+#footer{
+position: absolute;	
+bottom: 0;
+position: fixed;
+}
+.choice ~ .focus-bg:before,
+.choice ~ .focus-bg:after{content: "";position: absolute;
+left: 50%;top: 50%;width: 0;
+height: 0;background-color: #ededed;transition: 0.3s;z-index: -1;}
+.choice:focus ~.focus-bg:before{transition: 0.3s;width: 50%;left: 0;
+top: 0;height: 100%;}
+.choice ~ .focus-bg:after{left: auto;right: 50%;
+top: auto;bottom: 50%;}
+.choice:focus ~ .focus-bg:after{transition: 0.3s;
+width: 50%;height: 100%;bottom: 0;right: 0;}
+
+.credit{
+	border:1px solid #ccc;
+	padding: 7px 14px 9px;
+	transition: 0.4s;
+	background:transparent;
+}
+.credit ~ .focus-bg:before,
+.credit ~ .focus-bg:after{content: "";position: absolute;
+left: 50%;top: 50%;width: 0;
+height: 0;background-color: #ededed;transition: 0.3s;z-index: -1;}
+.credit:focus ~.focus-bg:before{transition: 0.3s;width: 50%;left: 0;
+top: 0;height: 100%;}
+.credit ~ .focus-bg:after{left: auto;right: 50%;
+top: auto;bottom: 50%;}
+.credit:focus ~ .focus-bg:after{transition: 0.3s;
+width: 50%;height: 100%;bottom: 0;right: 0;}
+ */

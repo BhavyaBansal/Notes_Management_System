@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "artful-striker-265515",
+  "private_key_id": "928ea31ee4ef96f7d1a2edc673cc900b5f2acd4e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjoS4i8DwCHzIS\nbLzbx7d+3ZxK/CCJ1RpQHbr64xsjN1gcKA6LoYaRAX62I/4S4hXMD3cmYVn9EqZF\nhZRRTjiaFX+IdYOhaEiLvJrWrB58qOwJI6CQn3wHUM9GUATyE/1Hls4iYyONsidr\noNQ11ek2B803PICkTcXLbHzI05+vVuVgH9CjUncjnBaW09npUiJm9wgVw1VfsM89\ndgRmyMbYdYqELvIhjNMUsjdA/TnooXCAhzT0JIvNarmHK/pn/fM6+hpzgtVGKia8\nVT7tSBx+nML2bdxpHXTq7I41egC3fTTAJtMBxWQrAj16aYvS5/EinhjN6fZlyZMI\nOSW6O9ZNAgMBAAECggEAE0cE8XbOCw3zzzniUh5IXvjq1ea4SqTBkdi+05n384Es\nrzyE4ixodyLu87Rv1XevS7gyuGHVwTv2PNCM9bs6beTEfqYhmN15VoUk1M+4U8Vu\n8XCyFPfFG/OIR+dbfc2fFFUO+fwmDyaDAGoVNjZ6YDQxGCXXngPPnrSsStirwnNR\nHSw4gia1ghhOc+HVUJhIe6syRqwg5tc42PKH4zbrN+A9+T9rRYklZ0DoIIW8xeBM\n591MEMtkpwdh2F/RzC8fWyvxKM3vpvhHlDp7/c4dYuKmlbJsFhIBbWFpUU0mERbT\nB23QjdzpeMglNCxF6FArdfJMMvGhBEUy+PFp4LSw3QKBgQDQPN1yq6DKjREyJdec\ng9SxBJ18WbNLholcQxV8eimzRyIySGWZsxk54zRmCA8lxDqQ3vU0gmjkfkUjlO7F\nxKxieIv7bMx3xmBh8BfRskcVoAp15QxnebgPSJiEb4C/g1GCT+tni1wteWvTnIQH\nhdXjihltl3LQ4s8QBaICuRozWwKBgQDJKQzt/H6XcNmWWhkUTTMjEg5IZgIxeJlI\n/xsbaX6aH3OT3ZOMdInZK/osjcgSXVQuPUQFNzrkiO/o6VTGKTTeCYHnkGhM0xy9\npwDXwI3eWjXP/Z6JtTQks4IzqMfW7gx1uIShJ0BanLY1/+6qT9pkIUNQF1ZbMe/1\nwmuKx56VdwKBgCEVSmlpcwY7GzxIXtTy7NuizBJxfdbF7RTHY6Z/Ehj1eC1c6ydc\nGOnlevGq3h0168gQZAyPm3KRzRI2Gyk4cdrDJBox0tpEnhNxPZeHJ1v8LS1F0o6t\n+9wRwIlp3Z6PkmeNouy0a1SeMc9Q0nkPfkfELP4ITal6H0OAYZjlJ5B5AoGBAI1J\nBcnJQ+h93HVbhq3ZowcI0XtMGlJAz/iTJKjWKZN6b6T1RYKq/37HAol0c4digZOQ\neEvphLWq8EX4TBB6NKWWq+TGals7E76oo1Dl7z6ywYT6LvWtjZgRdGtwKhvtSlcM\naCr/9JUv6FJ5FVoNh+g37J0+JusaYd2M1he9KMb1AoGBAM7kwuA1j7APkaYUxHoR\ngHaNoc9ji9LHJ2juUEyaY/QOiwYx6xCGYfLHS7/bJL3uNhcxr8mkY7W4P7Ywv2MR\nGqgUwYWfUDQ9aJJdUJEfTm6LwoUuW+49bgWKgMVwrmWj3iuenwsKWquq4p7wBNMV\nk3305jzG5YCE0t7RIPLx9YQy\n-----END PRIVATE KEY-----\n",
+  "client_email": "gaurav-agarwal@artful-striker-265515.iam.gserviceaccount.com",
+  "client_id": "115352959926234523854",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gaurav-agarwal%40artful-striker-265515.iam.gserviceaccount.com"
+}

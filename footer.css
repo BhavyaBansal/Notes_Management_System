@@ -1,0 +1,14 @@
+.bd-placeholder-img {  text-anchor: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+#font-size { font-family: 'Archivo Black', sans-serif; font-family: 'Cinzel', serif; font-size: 120%; }
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg { font-size: 3.5rem; }
+    .dot { height: 50px; width: 50px; border-radius: 50%; display: inline-block; }
+    }
+    @media (max-width: 767.9px) {
+.dot { height: 37px; width: 37px; border-radius: 50%; display: inline-block; }
+        .fonticon{
+            font-size: 1.7rem;
+        }
+        }
+
+    

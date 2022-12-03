@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>login</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="login.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7ade572a84.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="login.js"></script>
+  <script>
+    function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /*loop through a collection of all HTML elements:*/
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+    /*make an HTTP request using the attribute value as the file name:*/
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    if (this.readyState == 4) {
+    if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+    if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+    /*remove the attribute, and call this function once more:*/
+    elmnt.removeAttribute("w3-include-html");
+    includeHTML();
+    }
+    }      
+    xhttp.open("GET", file, true);
+    xhttp.send();
+    /*exit the function:*/
+    return;
+    }
+    }
+    };
+  function myFunction() {
+    var x = document.getElementById("pwd");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+  function myFunction2() {
+    var x = document.getElementById("pwd1");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+    </script>
+    <style type="text/css">
+      .eye1{
+      }
+      #hide1{
+        display: none;
+      }
+    </style>
+</head>
+<body>
+  
+  <div class="space">
+    
+    <div class="container-fluid yo mt-5 w3-text-light-gray text-style " >
+      <br><br><br>
+      <div class="row">
+    <div class="col-12">
+    <section class="sign-in mr-auto ml-auto rounded-0">
+    <div class="text-center">
+    <i class="fa fa-user-circle  icon-1" aria-hidden="true"></i>
+    </div>
+    <h1 class="text-center id1 font-size">
+    <span id='nav-sign-in' class="active-1">Sign-In</span><span id='nav-sign-up'>Sign-Up</span>
+    </h1>
+
+    <form action="sign_in_process.php"  method="post" accept-charset="utf-8" class="needs-validation w-100 font-size1" novalidate="true" id="form-1" name="form-1">
+    <div class="form-group">
+    <label for="username" id="us" class="id1">Email:
+    <span class="inpicon">
+    <i class="fa fa-user-o" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="text" class="form-control" placeholder="Enter email" name="email" id="username" required="required" autocomplete="off">
+    <div class="valid-feedback font-size2">
+    Looks good!
+    </div>
+    <div class="invalid-feedback 1">
+      <span class="font-size2">
+    Please enter a valid Email!
+    </span>
+  </div>
+    </div>
+    <div class="form-group">
+    <label for="pwd" id="pa" class="id1">
+    Password:
+    <span class="inpicon">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="password" class="form-control" placeholder="Enter password" name="password" id="pwd" required="required" autocomplete="off">
+    <!-- <div class="show-pass" style="font-size: 14px;letter-spacing: 1px;width: 150px;height: 30px;">
+    <input type="checkbox" onclick="myFunction()" style="width: 25px;height: 25px;margin-top: 5px;">
+    <label style="position: relative;top: -7px;">Show Password</label>
+    </div> -->
+    <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+    </div>
+    <div class="valid-feedback font-size2">
+      Looks good!
+    </div>
+    <div class="invalid-feedback font-size2">
+      <span class="font-size2">
+    Please enter a valid password !
+      </span>  
+  </div>
+  <div align="right"><a href="forgotpassword.html" style="font-size: 14px;">Forgot password?</a></div>
+    </div>
+    <center>
+      <button type="submit" class="btn-primary" name="btn2" style="font-size: 18px;margin-bottom: 10px;padding: 10px 10px;border-radius: 6px;border: none;width: 75%;">Login</button><br>
+      <p align="center" style="font-size: 14px">or login with</p>
+      <div>
+      <button type="submit" class="btn-light" style="font-size: 18px;padding: 10px 10px;border: 1px solid #262626;border-radius: 6px;margin-bottom: 10px;width:75%;">
+          <img src="images/google2.webp" style="width: 30px;margin-right: 3px;padding: 1px;margin-bottom: 1px;"><a href="https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%2Fnms2%2Fgooglelogin%2Findex.php&client_id=940638613726-05h4u81ojf3m09eg8uskd3ts8ocds31k.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=offline&approval_prompt=force">Google</a>
+      </button>
+      </div>
+      </center>	
+    <!-- <center>
+    <button type="submit" class="btn btn-primary mb-4 id1" name="btn2">Submit</button>
+    </center>		 -->
+    </form>
+
+
+    <form action="sign_up_process.php" method="post" accept-charset="utf-8" class="needs-validation w-100 w3-text-light-gray font-size1" novalidate="true" id="form-2" name='form-2'>
+    <div class="form-group">
+    <label for="first name" id="fi" class="id1">Name:
+    <span class="inpicon">
+    <i class="fa fa-male" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="text" class="form-control" placeholder="Enter name" name="name" id="fname" required="required">
+    <div class="valid-feedback font-size2">
+    Looks good!
+    </div>
+    <div class="invalid-feedback font-size2">
+      <span class="font-size2">
+    Please enter a valid name!
+  </span>
+    </div>
+    </div>
+    <div class="form-group">
+    <label for="lname" id="la" class="id1">
+    D.O.B
+    <span class="inpicon">
+    <i class="fa fa-user" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="date" class="form-control" placeholder="Enter date of birth " name="dob" id="lname" required="required">
+    <div class="valid-feedback font-size2">
+    Looks good!
+    </div>
+    <div class="invalid-feedback font-size2">
+      <span class="font-size2">
+    Please enter a valid d.o.b!
+    </span>
+    </div>
+    </div>
+    <div class="form-group">
+    <label for="nuname" id="us2" class="id1">Phone No:
+    <span class="inpicon">
+    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="number" class="form-control" placeholder="Enter phone no" name="phone_no" id="nuname" required="required">
+    <div class="valid-feedback font-size2">
+    Looks good!
+    </div>
+    <div class="invalid-feedback font-size2">
+      <span class="font-size2">
+    Please enter a valid phone no!
+      </span>
+    </div>
+    </div>
+    <div class="form-group">
+    <label for="email" id="em" class="id1">
+    Email:
+    <span class="inpicon">
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="email" class="form-control" placeholder="Enter email" name="email" id="email" required="required">
+    <div class="valid-feedback font-size2">
+    Looks good!
+    </div>
+    <div class="invalid-feedback font-size2">
+      <span class="font-size2">
+    Please enter a valid email address!
+    </span>
+    </div>
+    </div>
+    <div class="form-group">
+    <label for="pwd" id="pa2" class="id1">
+    Password:
+    <span class="inpicon">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="password" class="form-control" placeholder="Enter password " name="password" id="pwd1" required="required" minlength="8">
+    <div class="show-pass" style="font-size: 14px;letter-spacing: 1px;width: 150px;height: 30px;">
+    <input type="checkbox" onclick="myFunction2()" style="width: 25px;height: 25px;margin-top: 5px;">
+    <label style="position: relative;top: -7px;">Show Password</label>
+    </div>
+    <div class="valid-feedback font-size2">
+    Looks good!
+    </div>
+    <div class="invalid-feedback font-size2">
+      <span class="font-size2">
+    Please enter a valid password !
+      </span>
+    </div>
+    </div>
+   <div class="form-group">
+    <label for="code" id="te" class="id1">
+    Teacher's code:
+    <span class="inpicon">
+    <i class="fa fa-asterisk" aria-hidden="true"></i>
+    </span>
+    </label>
+    <input type="text" class="form-control" placeholder="For only teachers " name="teacher_code" id="code">
+    </div> 
+    <center>
+    <button type="submit" class="btn btn-success mb-4 mt-1 id1" name="btn">Submit</button>
+    </center>		
+    </form>
+    </section>
+    </div>
+    </div>
+  </div>
+  
+     </div>
+     
+      <div w3-include-html="navbar.html"></div>
+      <div w3-include-html="footer.html"></div>
+     
+      <script>
+      includeHTML();
+      </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+<script>
+	(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+</html> 

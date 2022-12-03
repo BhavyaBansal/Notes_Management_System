@@ -1,0 +1,143 @@
+
+
+ @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+		font-family: 'Archivo Black', sans-serif;
+		font-family: 'Cinzel', serif;
+	  
+}
+
+html,body{
+	height: 90%;
+}
+.space{
+	min-height: 90%;
+}
+
+.ghi a,
+	a:hover,
+	a:focus{
+	color: ;
+	text-decoration: none;
+	transition: all 0.3s;
+	}
+.navbar{
+	padding: 15px 10px;
+	border: none;
+	border-radius: 0;
+	
+}	
+.navbar-btn{
+	box-shadow: none;
+	outline: none!important;
+	border: none;
+}
+.wrapper {
+    display: flex;
+	width: 100%;
+    
+}
+#sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    background: ;
+	color: ;
+	height: 90vh;
+	position: relative;
+	position: fixed;
+	overflow-y: auto;
+	z-index: 1;
+    transition: all 0.3s;
+}
+#folders{
+	/* width:100%; */
+	/* height: auto; */
+	/* position:absolute; */
+	/* left: -10px; */
+
+}
+#folders div{
+	margin: 0;
+	/* margin-top: -10px; */
+	/* margin-bottom: -12%; */
+}
+#sidebar.active{
+	margin-left: -220px;
+}
+
+#sidebar .sidebar-header{
+	padding: 0px 10px;
+	margin-bottom: -5px; 
+	background: ;
+}
+#sidebar ul.components{
+	padding-top: 10px;
+}
+
+#sidebar ul p{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#sidebar ul li a{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+#sidebar ul li a:hover {
+    color: ;
+    background: ;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: ;
+}
+#abc a[data-toggle="collapse"] {
+    position: relative;
+}
+.def .dropdown-toggle::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background:;
+}
+#content {
+    width: 100%;
+    min-height: 70vh;
+	transition: all 0.3s;
+
+}
+#sidebarCollapse{
+	transition: 0.4s; 
+	margin-top: 230px;
+	margin-left: 220px;
+	position: relative;
+	position: fixed;
+	z-index: 1;
+	font-size: 40px;
+	
+}
+#sidebarCollapse:hover{
+	
+	opacity: 0.8;
+}
+#leftCol {
+    position: fixed;
+    position: absolute;
+    width: 150px;
+    overflow-y: scroll;
+    top: 0;
+	bottom: 0;
+	
+} */
